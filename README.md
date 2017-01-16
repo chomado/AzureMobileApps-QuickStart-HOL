@@ -5,6 +5,10 @@
 
 という内容の資料を作っていきます。30分くらいの内容にしたいと思います。
 
+# まずは基礎知識から
+
+ハンズオンに入る前に、用語説明など、少しお勉強です。
+
 ## Microsoft Azure とは？
 
 ![microsoft azure](img/azure.png)
@@ -23,12 +27,41 @@ Microsoft 社の提供するクラウドサービスは『**Microsoft Azure**』
 
 ## Azure Mobile Apps とは？
 
-![azure mobile apps](img/mobileapps-overview.png)
-
 Microsoft Azure は色々なサービスを提供していますが、    
 **Mobile Apps** は、その中の「*モバイルアプリ用の機能(サービス)セット*」です。
 
-このハンズオンでは、「*クライアントは Xamarin、サーバサイドは Azure Mobile Apps*」を利用して進めます。
+![azure mobile apps](img/mobileapps-overview.png)
+
+Mobile Apps の提供する機能例：
+
+1. <u>**データ保存**</u> (DBへの読み書き削除など)
+1. <u>**ユーザ認証・ログイン機能**</u> (『Twitterでログイン』などの機能の提供)
+1. <u>**プッシュ通知**</u> ("Remote Notification"とも呼ばれる。通知を飛ばす)
+1. <u>**オフライン同期**</u> (オフライン時はローカルDBに保存しておき、オンラインになったらクラウド上のDBと同期させる、などの操作ができる機能)
+
+他、もちろん、生成されたサーバサイドのコード(node.js または ASP.NET)を    
+お手持ちのエディタや Azure上のオンラインエディタで    
+ガリガリ自由にいじることもできます。
+
+## Xamarin とは？
+
+![xamarin-logo](img/xamarin-logo.png)
+
+**Xamarin** (ざまりん) とは、   
+Microsoft の提供する、**クロスプラットフォーム開発環境**です。    
+
+C# (または F#)だけで、iOS/Android/Windows アプリ(など)を書くことができます。    
+さらに、プラットフォーム間でのコード共有化をすることもできます。(ここが Xamarin 最大のメリットかな？)
+
+![xamarin-logo](img/xamarin.png)
+
+# ハンズオン開始！
+
+このハンズオンでは、
+
+「*クライアントは Xamarin、サーバサイドは Azure Mobile Apps*」
+
+を利用して進めます。
 
 ![](img/architecture.jpg)
 ## リファレンス
