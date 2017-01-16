@@ -5,9 +5,13 @@
 
 という内容の資料を作っていきます。30分くらいの内容にしたいと思います。
 
+----
+
 # まずは基礎知識から
 
 ハンズオンに入る前に、用語説明など、少しお勉強です。
+
+----
 
 ## Microsoft Azure とは？
 
@@ -24,6 +28,8 @@ Microsoft 社の提供するクラウドサービスは『**Microsoft Azure**』
 
 (昔は『Windows Azure』という名前でしたが、Azure は『the public cloud platform』として、Windows など自社製品にとらわれることなく 様々な言語やOSを 幅広くカバーするということで、今の『**Microsoft Azure**』へと[改名された](https://blogs.msdn.microsoft.com/windowsazurej/2014/03/26/windows-azuremicrosoft-azure/)経緯があります。( 例えば Azure は [Linux のインスタンスも立ち上げられます](https://azure.microsoft.com/ja-jp/pricing/details/virtual-machines/linux/)し、[Oracle も動きます](https://azure.microsoft.com/ja-jp/campaigns/oracle/)))   
 
+
+----
 
 ## Azure Mobile Apps とは？
 
@@ -43,17 +49,25 @@ Mobile Apps の提供する機能例：
 お手持ちのエディタや Azure上のオンラインエディタで    
 ガリガリ自由にいじることもできます。
 
+----
+
 ## Xamarin とは？
 
 ![xamarin-logo](img/xamarin-logo.png)
 
 **Xamarin** (ざまりん) とは、   
-Microsoft の提供する、**クロスプラットフォーム開発環境**です。    
+Microsoft の提供する、**クロスプラットフォーム開発環境**です。    　
+（ひとつの開発環境で複数のプラットフォームのアプリを開発することを「クロスプラットフォーム開発」といいます。）
 
-C# (または F#)だけで、iOS/Android/Windows アプリ(など)を書くことができます。    
+普通は iOSアプリは Swift/Obj-C、Androidアプリは Java で書きますが、
+
+Xamarin を使えば、C# (または F#)だけで、iOS/Android/Windows アプリ(など)を書くことができます。    
+
 さらに、プラットフォーム間でのコード共有化をすることもできます。(ここが Xamarin 最大のメリットかな？)
 
 ![xamarin-logo](img/xamarin.png)
+
+----
 
 # ハンズオン開始！
 
@@ -64,6 +78,10 @@ C# (または F#)だけで、iOS/Android/Windows アプリ(など)を書くこ�
 を利用して進めます。
 
 ![](img/architecture.jpg)
+
+
+----
+
 ## リファレンス
 
 ### 公式ドキュメント：
