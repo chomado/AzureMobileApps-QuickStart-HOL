@@ -2,6 +2,14 @@
 
 ハンズオンに入る前に、用語説明など、少しお勉強です。
 
+
+単語|読み方|意味
+----|----|----
+**Microsoft Azure**|マイクロソフト・アジュール|Microsoft 社の提供するクラウドサービス。
+**Azure Mobile Apps**|アジュール・モバイル・アプス|Azure の中のモバイルアプリ開発のためのバックエンド機能セット(MBaaS)。DBにデータ保存したり通知やログイン機能などを提供する。
+**Xamarin**|ザマリン|Microsoft 社の提供する、クロスプラットフォーム開発環境(ツール)
+**Xamarin.Forms**|ザマリンフォームズ|Xamarin での開発手法のうちのひとつ。(Xamarin Native と Xamarin.Forms の 2択)。
+
 ----
 
 ## Microsoft Azure とは？
@@ -78,3 +86,5 @@ Xamarin を使えば、C# (または F#)だけで、iOS/Android/Windows アプ�
 **Azure Mobile Apps**|アジュール・モバイル・アプス|Azure の中のモバイルアプリ開発のためのバックエンド機能セット(MBaaS)。DBにデータ保存したり通知やログイン機能などを提供する。|モバイルアプリのバックエンドをまるっと作ってくれる。だから開発者はフロントエンドの開発だけに集中できる
 **Xamarin**|ザマリン|Microsoft 社の提供する、クロスプラットフォーム開発環境(ツール)|C#だけで iOS / Android / UWP アプリを、コード共通化しながら、効率良く開発することができる。ただし UI部分は それぞれのプラットフォームごとに書く必要がある
 **Xamarin.Forms**|ザマリンフォームズ|Xamarin での開発手法のうちのひとつ。(Xamarin Native と Xamarin.Forms の 2択)。<br />Xamarin は 元々はコードを共有化できるのはロジック部分だけだったけど、 Xamarin.Forms を使えば UI 部分も共通化できる。|C#だけで iOS / Android / UWP アプリを、コード共通化しながら、超効率良く開発することができる。ロジック部分の他に、UI部分も共通化できる
+
+----
