@@ -59,9 +59,14 @@ Mobile Apps の提供する機能例：
 Microsoft の提供する、**クロスプラットフォーム開発環境**です。    　
 （ひとつの開発環境で複数のプラットフォームのアプリを開発することを「クロスプラットフォーム開発」といいます。）
 
+![](img/normal-approach.png)
+
 普通は iOSアプリは Swift/Obj-C、Androidアプリは Java で書きますが、
 
 Xamarin を使えば、C# (または F#)だけで、iOS/Android/Windows アプリ(など)を書くことができます。    
+
+![](img/transform-with-xamarin.png)
+
 
 さらに、プラットフォーム間でのコード共有化をすることもできます。(ここが Xamarin 最大のメリットかな？)
 
