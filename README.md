@@ -36,6 +36,9 @@ Microsoft 社の提供するクラウドサービスは『**Microsoft Azure**』
 Microsoft Azure は色々なサービスを提供していますが、    
 **Mobile Apps** は、その中の「*モバイルアプリ用の機能(サービス)セット*」です。
 
+「Microsoft の提供する MBaaS」とも言えます。     
+（MBaaS: Mobile Backend as a Service）
+
 ![azure mobile apps](img/mobileapps-overview.png)
 
 Mobile Apps の提供する機能例：
@@ -49,6 +52,8 @@ Mobile Apps の提供する機能例：
 お手持ちのエディタや Azure上のオンラインエディタで    
 ガリガリ自由にいじることもできます。
 
+![](img/azuremobileapps.png)
+
 ----
 
 ## Xamarin とは？
@@ -56,21 +61,30 @@ Mobile Apps の提供する機能例：
 ![xamarin-logo](img/xamarin-logo.png)
 
 **Xamarin** (ざまりん) とは、   
-Microsoft の提供する、**クロスプラットフォーム開発環境**です。    　
+Microsoft の提供する、**クロスプラットフォーム開発環境**です。     
 （ひとつの開発環境で複数のプラットフォームのアプリを開発することを「クロスプラットフォーム開発」といいます。）
 
-![](img/normal-approach.png)
 
 普通は iOSアプリは Swift/Obj-C、Androidアプリは Java で書きますが、
 
 Xamarin を使えば、C# (または F#)だけで、iOS/Android/Windows アプリ(など)を書くことができます。    
 
-![](img/transform-with-xamarin.png)
-
-
 さらに、プラットフォーム間でのコード共有化をすることもできます。(ここが Xamarin 最大のメリットかな？)
 
-![xamarin-logo](img/xamarin.png)
+![](img/transform-with-xamarin.png)
+
+さらに、『**Xamarin.Forms**』を使うと、UI部分のコードも共通化できるので、さらなるコード共通化を図れます。    
+今回のハンズオンは、この **Xamarin.Forms** を使うことになります。
+
+![xamarin-logo](img/xamarinforms.png)
+
+----
+## ここまでのまとめ
+
+単語|読み方|意味
+----|----|----
+**Microsoft Azure**|マイクロソフト・アジュール|Microsoft社の提供するクラウドサービス。色んなことができる
+**Azure Mobile Apps**|アジュール・モバイル・アプス|Azure の中のモバイルアプリ開発のための機能セット。DBにデータ保存したり通知やログイン機能などを提供する。
 
 ----
 
