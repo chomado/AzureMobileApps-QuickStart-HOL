@@ -21,5 +21,5 @@
 ----
 
 参考：
-[[無料] Xamarin と Azure で、超効率的にクラウドと繋がるモバイルアプリを作ろう！[Azure Mobile Apps][MBaaS]](https://blogs.msdn.microsoft.com/chomado/xamarin/how-to-create-mobile-apps-connected-with-cloud/)
+[[無料] Xamarin と Azure で、超効率的にクラウドと繋がるモバイルアプリを作ろう！[Azure Mobile Apps][MBaaS]](https://blogs.msdn.microsoft.com/chomado/xamarin/how-to-create-mobile-apps-connected-with-cloud/?WT.mc_id=dotnet-0000-machiy)
 
